@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent';
-const GEMINI_API_KEY = 'AIzaSyD0ZQiR56gas1Kxnq_fEwv3Ku9M_KH4Zo8'; // Replace with your actual Gemini API key
+const GEMINI_API_KEY = ''; // Replace with your actual Gemini API key
 
 const GeminiChatBox = () => {
   const [messages, setMessages] = useState([]);
